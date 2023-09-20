@@ -1,13 +1,17 @@
-Algoritmo Promedios
-	Definir N1, N2, N3 Como Entero
-	Definir Promedio Como Real
-	N1 = 0 
-	N2 = 0
-	N3 = 0
-	Escribir " ingrese las notas "
+Algoritmo Promedios 
+	Definir N1, N2, N3, total Como Entero
+	Escribir "Ingrese Nota 1"
 	Leer N1
-	Leer N2
-	Leer N3
-	Promedio = (N1+N2+N3)/3
-	Escribir "El promedio es " Promedio
+	Escribir "Ingrese Nota 2"
+	leer N2
+	Escribir "Ingrese Nota 3"
+	leer N3
+	total= (N1+N2+N3)/3
+	Escribir "La nota final es " total
+	Si total >= 11.5 Entonces
+		Escribir "aprobado"
+	SiNo
+		Escribir "desaprobado"
+	Fin Si
+	
 FinAlgoritmo
